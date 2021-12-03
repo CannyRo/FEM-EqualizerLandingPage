@@ -1,0 +1,219 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+/* ___ Primary ___ */
+/* ___ Neutral ___ */
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.header {
+  height: 38.875rem;
+  background-image: url("./src/assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-position-y: -15rem;
+  color: #191826;
+  padding: 1.5rem;
+}
+.header .logo {
+  width: 9.130625rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.header .title_01 {
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.028125rem;
+}
+.header .resume {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.main {
+  height: 57.875rem;
+  border-radius: 0.9375rem;
+  background-image: url("./src/assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 75%;
+  background-color: #191826;
+  color: #FCFAF9;
+}
+.main .phone {
+  width: 13.0625rem;
+  height: 26.875rem;
+  margin-left: 5.041875rem;
+  position: relative;
+  top: -6.125rem;
+}
+.main .plan {
+  width: 100%;
+  height: 34.125rem;
+  padding: 2.25rem;
+  border-radius: 0.9375rem;
+  background-color: #FA7453;
+  position: relative;
+  top: -3.125rem;
+}
+.main .title_01 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.main .details {
+  margin-bottom: 2.25rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.main .price_area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 0.375rem;
+  margin-bottom: 2rem;
+}
+.main .price {
+  margin-right: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.0625rem;
+  line-height: 3.25rem;
+}
+.main .option {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: -0.0125rem;
+}
+.main button {
+  width: 18.5rem;
+  height: 3.8125rem;
+  border: none;
+  border-radius: 0.9375rem;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: -0.01125rem;
+}
+.main button img {
+  margin-right: 0.5625rem;
+}
+.main .apple, .main .apple:visited {
+  margin-bottom: 1rem;
+  background-color: #191826;
+  color: #FCFAF9;
+}
+.main .apple:hover, .main .apple:focus, .main .apple:focus-within, .main .apple:focus-visible, .main .apple:target, .main .apple:active {
+  background-color: #66E2DC;
+}
+.main .android, .main .android:visited {
+  background-color: #FCFAF9;
+}
+.main .android:hover, .main .android:focus, .main .android:target, .main .android:focus-within, .main .android:focus-visible, .main .apple:active {
+  background-color: #FFB964;
+}
+
+.footer {
+  height: 24.8125rem;
+  padding-top: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.footer .logo {
+  width: 9.125rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+.footer p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+.footer .email {
+  font-weight: 700;
+}
+.footer .social {
+  margin-top: 4rem;
+}
+.footer .social a:visited {
+  color: #191826;
+}
+.footer .social a:active, .footer .social a:focus, .footer .social a:focus-within, .footer .social a:focus-visible, .footer .social a:hover, .footer .social a:target {
+  color: #FA7453;
+}
+.footer .insta {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+.footer .fem {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.6875rem;
+}
+.footer .fem .attribution, .footer .fem a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer .fem .attribution:active, .footer .fem .attribution:target, .footer .fem .attribution:focus, .footer .fem .attribution:focus-within, .footer .fem .attribution:focus-visible, .footer .fem .attribution:hover {
+  color: #FA7453;
+}
+
+/*# sourceMappingURL=style.css.map */
